@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    background: linear-gradient(to right, #00e9fa , #cfcfcf);
+    font-family: 'Merriweather', serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#clock {
+    width:26vw;
+    text-align: left;
+    font-size: 10vw;
+    margin:20px;
+}
+
+#date {
+    font-size: 3vw;
+    margin:20px;
+}
+
+.seconds {
+    font-size:5vw;
+}
